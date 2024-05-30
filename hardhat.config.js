@@ -16,10 +16,7 @@ module.exports = {
     tanssi_test: {
       chainId: 99999,
       url: "https://fraa-flashbox-3064-rpc.a.stagenet.tanssi.network",
-      accounts: [
-        "a5ab70ea6a174c695d779c8e88ef2919c046832839100e6efbf4723ac522a9de" ||
-          "",
-      ],
+      accounts: [process.env.PRIVATE_KEY || ""],
     },
   },
 };
